@@ -6,12 +6,12 @@ plugins {
 
 keiyoushi {
     name = "LoveMeizi"
-    versionCode = 0
+    versionCode = 1
     contentWarning = ContentWarning.NSFW
     libVersion = "1.6"
-    theme = "default"
 
     source {
+        name = "lovemeizi"
         lang = "zh"
         baseUrl = "https://www.lovecutes.com"
     }
