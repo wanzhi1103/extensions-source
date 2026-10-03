@@ -1,16 +1,18 @@
+import io.github.keiyoushi.gradle.api.ContentWarning
+
 plugins {
-    id("com.android.library")
+    alias(kei.plugins.extension)
 }
 
-android {
-    namespace = "eu.kanade.tachiyomi.extension.zh.lovemeizi"
-    compileSdk = 35
+keiyoushi {
+    name = "LoveMeizi"
+    versionCode = 0
+    contentWarning = ContentWarning.NSFW
+    libVersion = "1.6"
+    theme = "default"
 
-    defaultConfig {
-        minSdk = 21
+    source {
+        lang = "zh"
+        baseUrl = "https://www.lovecutes.com"
     }
-}
-
-dependencies {
-    implementation(project(":core"))
 }
