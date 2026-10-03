@@ -1,5 +1,6 @@
 package eu.kanade.tachiyomi.extension.zh.lovemeizi
 
+import eu.kanade.tachiyomi.annotations.Source
 import eu.kanade.tachiyomi.source.model.*
 import eu.kanade.tachiyomi.source.online.HttpSource
 import eu.kanade.tachiyomi.network.GET
